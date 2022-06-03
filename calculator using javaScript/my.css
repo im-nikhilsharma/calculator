@@ -1,0 +1,213 @@
+*{
+    margin: 0%; padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: rgb(63, 63, 63);
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+h4{
+    font-size:x-large;
+}
+.main{
+    background-color: rgb(32, 32, 32);
+    height: 92vh; width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#show_result{
+    background-color: white;
+    height: 50px; width: 250px;
+    display:flex; justify-content: flex-end;
+    align-items: center;
+}
+#erase_button{
+    margin-right: 4%;
+}
+#icon_erase{
+    height: 20px;
+    margin-right: 4%;
+}
+#buttons{
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(226, 226, 226));
+    height: 250px; width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#button7{
+    background-color:rgb(71, 33, 224);
+    border: solid black 2px;
+    height: 60px; width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+#button8{
+    background-color:rgb(71, 33, 224);
+    border: solid black 2px;
+    height: 60px; width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+#button9{
+    background-color:rgb(71, 33, 224);
+    border: solid black 2px;
+    height: 60px; width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+#buttondivide{
+    background-color:lightcoral;
+    border: solid black 2px;
+    height: 60px; width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+#button4{
+    background-color:rgb(71, 33, 224);
+    border: solid black 2px;
+    height: 60px; width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+#button5{
+    background-color:rgb(71, 33, 224);
+    border: solid black 2px;
+    height: 60px; width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+#button6{
+    background-color:rgb(71, 33, 224);
+    border: solid black 2px;
+    height: 60px; width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+#buttonmul{
+    background-color: lightcoral;
+    border: solid black 2px;
+    height: 60px; width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+#button1{
+    background-color:rgb(71, 33, 224);
+    border: solid black 2px;
+    height: 60px; width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+#button2{
+    background-color:rgb(71, 33, 224);
+    border: solid black 2px;
+    height: 60px; width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+#button3{
+    background-color:rgb(71, 33, 224);
+    border: solid black 2px;
+    height: 60px; width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+#buttonmin{
+    background-color:lightcoral;
+    border: solid black 2px;
+    height: 60px; width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+#button0{
+    background-color:rgb(71, 33, 224);
+    border: solid black 2px;
+    height: 60px; width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+#buttonpoint{
+    background-color:rgb(71, 33, 224);
+    border: solid black 2px;
+    height: 60px; width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+#buttonequal{
+    background-color: orange;
+    border: solid black 2px;
+    height: 60px; width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+#buttonpluse{
+    background-color:lightcoral;
+    border: solid black 2px;
+    height: 60px; width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+}
